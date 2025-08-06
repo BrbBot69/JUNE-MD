@@ -28,7 +28,7 @@ async function pingCommand(sock, chatId, message) {
         const uptimeInSeconds = process.uptime();
         const uptimeFormatted = formatTime(uptimeInSeconds);
 
-        const botInfo = `🔸 *June Speed:* ${ping} ms`.trim();
+        const botInfo = `🔸 *𝙹𝚄𝙽𝙴* 𝚜𝚙𝚎𝚎𝚍: ${ping} ms`.trim();
 
         // Reply to the original message with the bot info
         await sock.sendMessage(chatId, { text: botInfo},{ quoted: message });

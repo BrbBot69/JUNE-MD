@@ -13,7 +13,7 @@ const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn
 
 // Command imports
 const tagAllCommand = require('./commands/tagall');
-const getppCommand =require('./commands/getpp');
+//const getppCommand =require('./commands/getpp');
 const helpCommand = require('./commands/help');
 const banCommand = require('./commands/ban');
 const { promoteCommand } = require('./commands/promote');
@@ -51,7 +51,7 @@ const { dareCommand } = require('./commands/dare');
 const { truthCommand } = require('./commands/truth');
 const { clearCommand } = require('./commands/clear');
 const pingCommand = require('./commands/ping');
-const aliveCommand = require('./commands/alive');
+//const aliveCommand = require('./commands/alive');
 const blurCommand = require('./commands/img-blur');
 const welcomeCommand = require('./commands/welcome');
 const goodbyeCommand = require('./commands/goodbye');
@@ -60,7 +60,7 @@ const { handleAntiBadwordCommand, handleBadwordDetection } = require('./lib/anti
 const antibadwordCommand = require('./commands/antibadword');
 const { handleChatbotCommand, handleChatbotResponse } = require('./commands/chatbot');
 const takeCommand = require('./commands/take');
-const { flirtCommand } = require('./commands/flirt');
+//const { flirtCommand } = require('./commands/flirt');
 const characterCommand = require('./commands/character');
 const wastedCommand = require('./commands/wasted');
 const shipCommand = require('./commands/ship');
@@ -90,7 +90,7 @@ const aiCommand = require('./commands/ai');
 const { handleTranslateCommand } = require('./commands/translate');
 const { handleSsCommand } = require('./commands/ss');
 const { addCommandReaction, handleAreactCommand } = require('./lib/reactions');
-const { goodnightCommand } = require('./commands/goodnight');
+//const { goodnightCommand } = require('./commands/goodnight');
 const { shayariCommand } = require('./commands/shayari');
 const { rosedayCommand } = require('./commands/roseday');
 const imagineCommand = require('./commands/imagine');
@@ -509,9 +509,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.ping':
                 await pingCommand(sock, chatId, message);
                 break;
-            case userMessage === '.uptime':
-                await aliveCommand(sock, chatId, message);
-                break;
+            //case userMessage === '.uptime':
+           //     await aliveCommand(sock, chatId, message);
+            //    break;
             case userMessage.startsWith('.blur'):
                 const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
                 await blurCommand(sock, chatId, message, quotedMessage);
@@ -594,9 +594,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 const takeArgs = userMessage.slice(5).trim().split(' ');
                 await takeCommand(sock, chatId, message, takeArgs);
                 break;
-            case userMessage === '.flirt':
-                await flirtCommand(sock, chatId, message);
-                break;
+           // case userMessage === '.flirt':
+           //     await flirtCommand(sock, chatId, message);
+     //           break;
             case userMessage.startsWith('.character'):
                 await characterCommand(sock, chatId, message);
                 break;
@@ -644,10 +644,10 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.clearsession' || userMessage === '.clearsesi':
                 await clearSessionCommand(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.autostatus'):
-                const autoStatusArgs = userMessage.split(' ').slice(1);
-                await autoStatusCommand(sock, chatId, message, autoStatusArgs);
-                break;
+        //    case userMessage.startsWith('.autostatus'):
+             //   const autoStatusArgs = userMessage.split(' ').slice(1);
+              //  await autoStatusCommand(sock, chatId, message, autoStatusArgs);
+              //  break;
             case userMessage.startsWith('.simp'):
                 await simpCommand(sock, chatId, message);
                 break;
@@ -719,9 +719,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.setpp':
                 await setProfilePicture(sock, chatId, message);
                 break;
-               case userMessage === '.getpp':
-                await getppCommand(sock, chatId, message);
-                break;            
+               //case userMessage === '.getpp':
+               // await getppCommand(sock, chatId, message);
+               // break;            
                 
             case userMessage.startsWith('.instagram') || userMessage.startsWith('.insta') || userMessage.startsWith('.ig'):
                 await instagramCommand(sock, chatId, message);
@@ -756,9 +756,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 const isOwner = message.key.fromMe;
                 await handleAreactCommand(sock, chatId, message, isOwner);
                 break;
-            case userMessage === '.goodnight' || userMessage === '.lovenight' || userMessage === '.gn':
-                await goodnightCommand(sock, chatId, message);
-                break;
+          //  case userMessage === '.goodnight' || userMessage === '.lovenight' || userMessage === '.gn':
+            //    await goodnightCommand(sock, chatId, message);
+           //     break;
             case userMessage === '.shayari' || userMessage === '.shayri':
                 await shayariCommand(sock, chatId, message);
                 break;
@@ -851,7 +851,7 @@ async function handleGroupParticipantUpdate(sock, update) {
             const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
             const welcomeData = data.welcome[id];
             const welcomeMessage = welcomeData?.message || 'Welcome {user} to the group! 🎉';
-            const channelId = welcomeData?.channelId || '120363161513685998@newsletter';
+            const channelId = welcomeData?.channelId || '@newsletter';
 
             // Send welcome message for each new participant
             for (const participant of participants) {
@@ -869,7 +869,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'June MD',
                             serverMessageId: -1
                         }
                     }
@@ -891,7 +891,7 @@ async function handleGroupParticipantUpdate(sock, update) {
             const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
             const goodbyeData = data.goodbye[id];
             const goodbyeMessage = goodbyeData?.message || 'Goodbye {user} 👋';
-            const channelId = goodbyeData?.channelId || '120363161513685998@newsletter';
+            const channelId = goodbyeData?.channelId || '@newsletter';
 
             // Send goodbye message for each leaving participant
             for (const participant of participants) {
@@ -908,7 +908,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'June MD',
                             serverMessageId: -1
                         }
                     }

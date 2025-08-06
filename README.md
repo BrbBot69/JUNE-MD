@@ -64,10 +64,41 @@ _For further setup & guidance, click the button below🩹_
   </a><br>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
     <img src="https://img.shields.io/badge/Bothosting Panel-28a745?style=for-the-badge" alt="PANEL"/>
-  </a>
+  </a><br>
+  
+> **Deploy on solarHosting panel**
+
+<div align="left">
+  <a href="ytlink">
+    <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+<br>
+<a href="https://account.solarhosting.cc/" target="_blank">
+  <img src="https://img.shields.io/badge/Solar_Hosting-FF6B6B?style=for-the-badge&logo=server&logoColor=white" alt="Solar Hosting"/>
+</a>
+
+> **Deploy on Dakicc panel**
+<div align="left">
+  <a href="ytlink">
+    <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+<br>
+
+<a href="https://daki.cc" target="_blank">
+  <img src="https://img.shields.io/badge/Daki_CC PANEL-34495E?style=for-the-badge&logo=server&logoColor=darkorange" alt="Daki CC"/>
+</a>
+
+> **Deploy on Optilink**
+
+<div align="left">
+  <a href="ytlink">
+    <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+<br>
+<a href="https://optiklink.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Optik_Link_panel-2ECC71?style=for-the-badge&logo=server&logoColor=darkorange" alt="Optik Link"/>
+</a>
 </div>
 
-> **Deploy On katabump panel**
+>  **Deploy On katabump panel**
+
 <div align="left">
   <a href ="https://youtu.be/1EkXurm-_BM?si=iNbOm1hv2_r8FHNE">
     <img src ="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt ="YouTube Link"/>

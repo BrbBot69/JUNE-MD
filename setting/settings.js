@@ -1,16 +1,16 @@
 const fs = require('fs')
 
 //~~~~~~~~~~~ Settings Owner ~~~~~~~~~~~//
-global.owner = "254756280512"
-global.developer = "254756280512"
-global.bot = ""
-global.devname = "Supreme"
-global.ownername = "Supreme"
-global.botname = "June Md"
+global.owner = "27767494368"
+global.developer = "27767494368"
+global.bot = "27818232269"
+global.devname = "♤𝗑ᴾᴿᴼ♧"
+global.ownername = "♤𝗑ᴾᴿᴼ♧"
+global.botname = "BALLAS𝗑ᴾᴿᴼ"
 global.versisc = "2"
-global.packname = "⎋June Md"
+global.packname = "⎋BALLAS𝗑ᴾᴿᴼ"
 //~~~~~~~~~~~ Settings Sosmed ~~~~~~~~~~~//
-global.linkwa = "https://wa.me/254756280512"
+global.linkwa = "https://wa.me/27767494368"
 global.linkyt = "https://www.youtube.com/supreme"
 global.linktt = "https://tiktok.com"
 global.linktele = "https://t.me"
@@ -18,21 +18,21 @@ global.linktele = "https://t.me"
 //~~~~~~~~~~~ Settings Bot ~~~~~~~~~~~//
 global.prefix = ["","!",".",",","#","/","🎭","〽️"]
 global.autoRecording = false
-global.autoTyping = true
+global.autoTyping = false
 global.autorecordtype = false
 global.autoread = true
-global.autobio = false
+global.autobio = true
 global.anti92 = false
 global.owneroff = false
 global.autoswview = true
 
 //~~~~~~~~~~~ Settings Thumbnail ~~~~~~~~~~~//
-global.thumbbot = "https://url.bwmxmd.online/Adams.poh4tuhs.jpg"
-global.thumbown = "https://url.bwmxmd.online/Adams.poh4tuhs.jpg"
+global.thumbbot = "https://files.catbox.moe/7xxkld.jpg"
+global.thumbown = "https://files.catbox.moe/7xxkld.jpg"
 
 //~~~~~~~~~~~ Settings Channel ~~~~~~~~~~~//
 global.idchannel = "120363402785346228@newsletter*"
-global.channelname = "ーJUNE MD UPDATES"
+global.channelname = "ー♤𝗑ᴾᴿᴼ♧"
 global.channel = "hatsapp.com/channel/0029Vb2W2vAADTOKmdoDxB0m"
 
 //~~~~~~~~~~~ Settings Message ~~~~~~~~~~~//

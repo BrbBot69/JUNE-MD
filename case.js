@@ -173,7 +173,7 @@ if (global.autorecordtype) {
 }
 
 if (autobio) {
-  supreme.updateProfileStatus(` 𝙹𝚄𝙽𝙴 𝙼𝙳 𝙱𝙾𝚃 is Online✅ Runtime ${runtime(process.uptime())}`)
+  supreme.updateProfileStatus(` BALLAS𝗑ᴾᴿᴼ 𝙱𝙾𝚃 is Online✅ Runtime ${runtime(process.uptime())}`)
     .catch(err => console.error("Error updating status:", err));
 }
 
@@ -380,7 +380,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: " *𝙹𝚄𝙽𝙴 𝙼𝙳* ",
+		  caption: " *♤𝗑ᴾᴿᴼ♧* ",
                   fileName: outputFileName,
                 },
                 { quoted: m }

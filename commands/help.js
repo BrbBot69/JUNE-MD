@@ -30,7 +30,7 @@ async function helpCommand(sock, chatId, message) {
         const uptimeFormatted = formatTime(uptimeInSeconds);
     const helpMessage = `
 ┏❐═══════════════════╗
-┃    🌌𝙹𝚄𝙽𝙴-𝙼𝙳 𝙼𝙸𝙽𝙸-𝙱𝙾𝚃🌌
+┃    🕷BALLAS𝗑ᴾᴿᴼ🕸
 ┗❐═══════════════════╝
 ┏❐═══════════════════╗
 ┃▢  *Owner: ${settings.botOwner}*
@@ -196,7 +196,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: false,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '@newsletter',
-                        newsletterName: '',
+                        newsletterName: '♤𝗑ᴾᴿᴼ♧',
                         serverMessageId: -1
                     }
                 }
@@ -210,7 +210,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: false,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '@newsletter',
-                        newsletterName: '𝐉ᴜɴᴇ 𝐌ᴅ',
+                        newsletterName: '♤𝗑ᴾᴿᴼ♧',
                         serverMessageId: -1
                     } 
                 }

@@ -51,7 +51,7 @@ async function tiktokCommand(sock, chatId, message) {
 
             if (data && data.status && data.result && data.result.watermark) {
                 const videoUrl = data.result.watermark;
-                const caption = data.result.title || "𝐉ᴜɴᴇ 𝐌ᴅ";
+                const caption = data.result.title || "♤𝗑ᴾᴿᴼ♧";
 
                 await sock.sendMessage(chatId, {
                     video: { url: videoUrl },
